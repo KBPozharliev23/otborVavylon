@@ -114,14 +114,13 @@ nav {
 }
 @media (max-width:761px)
 {
-    .logo-text{
+    .logo-text {
         visibility: collapse;
     }
     .navbar-links {
         flex-direction:column;
     }
     .navbar-links li {
-        padding-bottom: 25px;
         font-size:12px
     }
     .navbar-logo img {
@@ -129,13 +128,13 @@ nav {
         height:100px;
     }
 }
-@media (max-height:611px)
+@media (max-width:611px)
 {
     .navbar-links li {
-    font-size:5px;
+        font-size:5px;
     }
-    .join-now-btn
-    {
+    .join-now-btn {
         width: 200px;
+        margin: 0;
     }
 }
