@@ -87,3 +87,55 @@ nav {
     height: 100%;
     object-fit: cover;
 }
+
+@media (max-width:1360px)
+{
+    .navbar {
+        font-size:20px;
+        width:90%;
+    }
+}
+@media (max-width:1069px)
+{
+    .navbar {
+        font-size:15px;
+        width:90%;
+    }
+}
+@media (max-width:885px)
+{
+    .navbar {
+        font-size:13px;
+        width:90%;
+    }
+    .navbar-logo img {
+        height: 50px;
+    }
+}
+@media (max-width:761px)
+{
+    .logo-text{
+        visibility: collapse;
+    }
+    .navbar-links {
+        flex-direction:column;
+    }
+    .navbar-links li {
+        padding-bottom: 25px;
+        font-size:12px
+    }
+    .navbar-logo img {
+        width:200px;
+        height:100px;
+    }
+}
+@media (max-height:611px)
+{
+    .navbar-links li {
+    font-size:5px;
+    }
+    .join-now-btn
+    {
+        width: 200px;
+    }
+}
