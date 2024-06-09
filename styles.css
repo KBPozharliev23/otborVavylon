@@ -1,0 +1,74 @@
+@font-face {
+    font-family: 'xperia';
+    src: url(fonts/Xperia.ttf);
+    font-style:normal;
+    font-weight:100;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #0c0f12;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    align-items:center;
+    background-color: black;
+    color:white;
+    font-size:30px;
+}
+
+.navbar-logo {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-logo img {
+    height: 75px;
+}
+
+.navbar-links {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-links li {
+    margin: 0 15px;
+}
+
+.navbar-links a {
+    text-decoration: none;
+    color: #ffffff;
+    transition: color 0.3s ease;
+}
+
+.navbar-links a:hover {
+    color: #ff0000;
+}
+
+.join-now-btn {
+    background-color: #ff0000;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.join-now-btn:hover {
+    background-color: white;
+    color:black;
+}
+nav {
+    font-family: xperia;
+
+}
+.navbar-logo a {
+    font-style: none;
+    text-decoration:none;
+    color:white;
+}
