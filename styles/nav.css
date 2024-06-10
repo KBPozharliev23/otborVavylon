@@ -4,6 +4,7 @@
     font-style:normal;
     font-weight:100;
 }
+
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -110,4 +111,26 @@
     .join-now-btn {
         display: block;
     }
+}
+
+@media (max-width:535px)
+{
+    .join-now-btn {
+        text-align:center;
+    }
+}
+
+@media (max-width:399px)
+{
+    .navbar-links li {
+        font-size:10px;
+    }
+    
+}
+@media (max-width:371px)
+{
+    .navbar-links li {
+        font-size:9px;
+    }
+    
 }
