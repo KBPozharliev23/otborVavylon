@@ -10,12 +10,12 @@
     height: 500px;
     object-fit: cover;
 }
-h1
+.main-title
 {
-    font-family:Georgia;
+    font-family:georgia;
     font-style:italic;
     color:white;
-    font-size:75px;
+    font-size:70px;
     text-align:center;
 }
 .main-page-p{
@@ -58,4 +58,11 @@ h1
 .join-now-btn-div {
     display:flex;
     justify-content: center;
+}
+
+.info-heading{
+    color:white;
+    text-align:center;
+    font-size:65px;
+
 }
