@@ -50,7 +50,6 @@
 
 .join-now-btn:hover {
     background-color: white;
-    color:black;
     transition: color 0.4s ease;
 }
 .navbar-logo a {
