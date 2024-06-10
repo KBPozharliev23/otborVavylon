@@ -27,13 +27,13 @@
 .navbar-links {
     list-style: none;
     display: flex;
-    gap: 20px;
+    gap: 30px;
 }
 
 .navbar-links a {
     text-decoration: none;
     color: #ffffff;
-    transition: color 0.3s ease;
+    transition: color 0.4s ease;
 }
 
 .navbar-links a:hover {
@@ -51,6 +51,7 @@
 .join-now-btn:hover {
     background-color: white;
     color:black;
+    transition: color 0.4s ease;
 }
 .navbar-logo a {
     font-style: none;
@@ -59,6 +60,7 @@
 }
 .navbar-logo a:hover {
     color:rgb(168, 167, 167);
+    transition: color 0.3s ease;
 }
 
 @media (max-width:1360px)
@@ -67,12 +69,14 @@
         font-size:20px;
     }
 }
+
 @media (max-width:1137px)
 {
     .navbar {
         font-size:15px;
     }
 }
+
 @media (max-width:935px)
 {
     .navbar {
@@ -82,6 +86,7 @@
         height: 50px;
     }
 }
+
 @media (max-width:805px)
 {
     .navbar {
@@ -106,6 +111,7 @@
         height:100px;
     }
 }
+
 @media (max-width:611px)
 {
     .join-now-btn {
@@ -124,13 +130,12 @@
 {
     .navbar-links li {
         font-size:10px;
-    }
-    
+    } 
 }
+
 @media (max-width:371px)
 {
     .navbar-links li {
         font-size:9px;
     }
-    
 }
