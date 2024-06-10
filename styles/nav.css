@@ -11,6 +11,7 @@
     align-items: center;
     color: white;
     font-size: 30px;
+    font-family: xperia;
 }
 
 .navbar-logo {
@@ -49,11 +50,6 @@
 .join-now-btn:hover {
     background-color: white;
     color:black;
-}
-
-nav {
-    font-family: xperia;
-
 }
 .navbar-logo a {
     font-style: none;
