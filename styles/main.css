@@ -60,7 +60,9 @@
     justify-content: center;
 }
 .info-section {
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color:#11151a;
+
 }
 .info-heading{
     color:white;
@@ -69,34 +71,34 @@
 }
 .info-small-title {
     color:white;
-    font-size:40px;
-    font-weight:150;
+    font-size:30px;
+    font-weight:500;
 }
 .info-ul li {
     color:white;
-    font-size:30px;
+    font-size:20px;
 }
 .info-title-div {
     display:flex;
     flex-direction: column;
     border-radius:10px;
-    height:500px;
-    padding: 1rem 5rem;
+    padding: 2rem 1rem 2rem 4rem;
 }
 .info-img-div {
     display:flex;
-    flex-direction: row;
-    justify-content: flex-start;
     width:55%;
-    height:650px;
+    height:500px;
 }
 .info-img-div img {
     width:650px;
     height:500px;
-    border-radius:15px;
+    border-radius:60px;
+    padding: 3rem 3rem;
 }
-.info-section{
-    display:flex;
-    flex-direction: column;
-    background-color:rgb(53, 52, 52);
+hr {
+    border: none;
+    height: 1px;
+    background: linear-gradient(to right, transparent, #fff, transparent);
+    margin: 15px auto;
+    width: 80%;
 }
