@@ -15,7 +15,7 @@ h1
     font-family:Georgia;
     font-style:italic;
     color:white;
-    font-size:80px;
+    font-size:75px;
     text-align:center;
 }
 .main-page-p{
@@ -32,10 +32,8 @@ h1
 .undertext_1{
     color:gray;
     font-size:25px;
-    margin-right: 7px;
-    margin-left: 7px;
 }
 .number{
     color:red;
-    font-size:25px
+    font-size:25px;
 }
