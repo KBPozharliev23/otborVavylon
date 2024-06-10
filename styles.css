@@ -155,3 +155,10 @@ nav {
     font-family:Georgia;   
     
 }
+.homevideo{
+    position: absolute;
+    top: 19%;
+    left: 30%;
+    width:800px;
+    height: 900px;
+}
