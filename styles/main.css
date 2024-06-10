@@ -59,10 +59,44 @@
     display:flex;
     justify-content: center;
 }
-
+.info-section {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
 .info-heading{
     color:white;
     text-align:center;
-    font-size:65px;
-
+    font-size:70px;
+}
+.info-small-title {
+    color:white;
+    font-size:40px;
+    font-weight:150;
+}
+.info-ul li {
+    color:white;
+    font-size:30px;
+}
+.info-title-div {
+    display:flex;
+    flex-direction: column;
+    border-radius:10px;
+    height:500px;
+    padding: 1rem 5rem;
+}
+.info-img-div {
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width:55%;
+    height:650px;
+}
+.info-img-div img {
+    width:650px;
+    height:500px;
+    border-radius:15px;
+}
+.info-section{
+    display:flex;
+    flex-direction: column;
+    background-color:rgb(53, 52, 52);
 }
