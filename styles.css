@@ -70,6 +70,9 @@ nav {
     text-decoration:none;
     color:white;
 }
+.navbar-logo a:hover {
+    color:rgb(168, 167, 167);
+}
 .video-background {
     position: fixed;
     top: 0;
@@ -93,14 +96,14 @@ nav {
         width:90%;
     }
 }
-@media (max-width:1069px)
+@media (max-width:1137px)
 {
     .navbar {
         font-size:15px;
         width:90%;
     }
 }
-@media (max-width:885px)
+@media (max-width:935px)
 {
     .navbar {
         font-size:13px;
@@ -110,7 +113,7 @@ nav {
         height: 50px;
     }
 }
-@media (max-width:761px)
+@media (max-width:805px)
 {
     .logo-text {
         visibility: collapse;
@@ -119,7 +122,8 @@ nav {
         flex-direction:column;
     }
     .navbar-links li {
-        font-size:12px
+        font-size:12px;
+        padding-bottom:23px;
     }
     .navbar-logo img {
         width:200px;
@@ -129,18 +133,25 @@ nav {
 @media (max-width:611px)
 {
     .navbar-links li {
-        font-size:5px;
+        font-size:10px;
+        padding-bottom:17px;
     }
     .join-now-btn {
         width: 200px;
         margin: 0;
     }
 }
-h1{
+.main-page-h1{
     color:white;
     font-family:Georgia;
     text-align:center;
     Font-size:400%;
-    padding-top:20px;
     font-style:italic;
+}
+.main-page-p {
+    font-size:165%;
+    text-align:center;
+    color:rgb(202, 201, 201);
+    font-family:Georgia;   
+    
 }
