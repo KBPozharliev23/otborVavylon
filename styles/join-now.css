@@ -1,41 +1,43 @@
 .subscription-boxes {
     display:flex;
     justify-content: space-around;
-    margin-top: 110px;
 }
 
 .box {
     background-color: #a1a1a1;
     border-radius: 8px;
-    padding: 20px;
+    padding: 20px 30px;
     width: 450px;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    opacity: 0.9;
+    font-family: "Josefin Sans";
+    margin-top:5vw;
+    height:425px;
 }
-
-.box p {
-    font-size: 1;
-    margin-bottom: 0px;
+li {
+    font-size:25px;
 }
-
-.box ul {
-    list-style-type: none;
-    margin-bottom: 20px;
+.div-heading {
+    font-size:40px;
 }
-
-.box ul li {
-    background-color: #ffffff;
-    margin: 5px 0;
-    padding: 10px;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+.price {
+    font-size:30px;
 }
-
+.benefits {
+    display: flex;
+    flex-direction: column;
+    gap:15px;
+}
 button {
     background-color: #ff0000;
     color: white;
     border: none;
-    padding: 10px 20px;
-    border-radius: 4px;
+    padding: 14px 20px;
+    border-radius: 5px;
     cursor: pointer;
+    font-family: "Josefin Sans"; 
+    width:100%;
+    font-size:20px;
+
 }
 
 button:hover {
