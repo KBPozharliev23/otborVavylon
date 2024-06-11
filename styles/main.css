@@ -6,14 +6,13 @@
 }
 
 .introduction video {
-    width: 800px;
-    height: 500px;
+    width: 850px;
+    height: 550px;
     object-fit: cover;
 }
 .main-title
 {
     font-family:georgia;
-    font-style:italic;
     color:white;
     font-size:70px;
     text-align:center;
@@ -21,7 +20,6 @@
 .main-page-p{
     font-family:Georgia;
     color:white;
-    font-style:italic;
     font-size:35px;
 }
 .undertext{
@@ -30,7 +28,7 @@
     align-items: center;
 }
 .undertext_1{
-    color:gray;
+    color:rgb(172, 172, 172);
     font-size:27px;
 }
 .number{
@@ -71,26 +69,26 @@
 }
 .info-small-title {
     color:white;
-    font-size:30px;
-    font-weight:500;
+    font-size:40px;
+    font-weight:400;
 }
 .info-ul li {
     color:white;
-    font-size:20px;
+    font-size:25px;
 }
 .info-title-div {
     display:flex;
     flex-direction: column;
     border-radius:10px;
-    padding: 2rem 1rem 2rem 4rem;
+    
 }
 .info-img-div {
     display:flex;
-    width:55%;
+    width:100%;
     height:500px;
 }
 .info-img-div img {
-    width:650px;
+    width:800px;
     height:500px;
     border-radius:60px;
     padding: 3rem 3rem;
