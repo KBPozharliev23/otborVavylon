@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'xperia';
-    src: url(fonts/Xperia.ttf);
+    src: url("/fonts/Xperia.ttf");
     font-style:normal;
     font-weight:100;
 }
