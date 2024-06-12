@@ -5,7 +5,7 @@
 
 ## 🙋‍♂️ Our team
 
-- [Kaloqn Pojarliev](https://github.com/KBPozharliev23) [Scrum trainer]
+- [Kaloyan Pozharliev](https://github.com/KBPozharliev23) [Scrum trainer]
 - [Georgi Pavlov](https://github.com/GZPavlov) [Designer]
 - [Danail Petrov](https://github.com/danailpetrov1) [Front-end developer]
 - [Hristiyan Stanchev](https://github.com/hrisipisi78) [Front-end developer]
