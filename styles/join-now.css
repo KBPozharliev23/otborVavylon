@@ -43,3 +43,6 @@ button {
 button:hover {
     background-color: #b30000;
 }
+.payment-methods{
+    width: 90%
+}
