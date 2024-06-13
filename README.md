@@ -23,7 +23,7 @@
 ## Markup languages:
 
 <img src="media_readme/html5_logo.png" alt="html5 logo" width="40" height="55"/> 
-<img src="media_readme/css3_logo.png" alt="css3 logo" width="60" height="55"/> 
+<img src="media_readme/css3_logo.png" alt="css3 logo" width="40" height="55"/> 
 
 ## Softwares used for visual elements:
 
@@ -33,4 +33,4 @@
 ## Used programs for creating the presentation and documentation:
 
 <img src="media_readme/microsoft_powerpoint_logo.png" alt="microsoft_powerpoint logo" width="45" height="40"/> 
-<img src="media_readme/microsoft_word_logo.png" alt="microsoft_word logo" width="76" height="40"/> 
+<img src="media_readme/microsoft_word_logo.png" alt="microsoft_word logo" width="45" height="43"/> 
