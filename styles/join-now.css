@@ -7,11 +7,11 @@
     background-color: #a1a1a1;
     border-radius: 8px;
     padding: 20px 30px;
-    width: 400px;
+    width: 450px;
     opacity: 0.9;
     font-family: "Josefin Sans";
     margin-top:5vw;
-    height:570px;
+    height:600px;
 }
 li {
     font-size:25px;
@@ -23,7 +23,6 @@ li {
     display: flex;
     justify-content: center;
     align-items: center;
-    text-align:center;
     color: rgb(255, 255, 255);
     background-color: rgb(0, 0, 0);
     border: 5px solid white;
@@ -65,8 +64,7 @@ button:hover {
     background-color: #b30000;
 }
 .payment-methods{
-    width: 90%;
-    padding-left:40px;
+    width: 90%
 }
 .box:hover {
     background: #5e5e5e;
