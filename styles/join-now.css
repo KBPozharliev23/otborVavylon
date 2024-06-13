@@ -11,33 +11,53 @@
     opacity: 0.9;
     font-family: "Josefin Sans";
     margin-top:5vw;
-    height:425px;
+    height:600px;
 }
 li {
     font-size:25px;
 }
 .div-heading {
-    font-size:40px;
+    height: 80px;
+    font-size:30px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    border: 5px solid white;
 }
 .price {
-    font-size:30px;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    border-radius: 50%;
+    width: 80px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.7em;
+    margin: -30px auto 10px;
+   font-weight: bold;
 }
+
 .benefits {
     display: flex;
     flex-direction: column;
     gap:15px;
+    margin-bottom: 2em;
 }
 button {
     background-color: #ff0000;
     color: white;
     border: none;
     padding: 14px 20px;
-    border-radius: 5px;
+    border-radius: 5em;
     cursor: pointer;
     font-family: "Josefin Sans"; 
     width:100%;
     font-size:20px;
-
+    font-weight: 600;
 }
 
 button:hover {
@@ -45,4 +65,12 @@ button:hover {
 }
 .payment-methods{
     width: 90%
+}
+.box:hover {
+    background: #5e5e5e;
+    color: #FFF;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 1);
+    transform: scale(1.1);
+    z-index: 1;
+    border-radius: 25px;
 }
