@@ -75,18 +75,3 @@ input[type="submit"]:hover {
     border-color:darkred;
     transition: 0.5s;
 }
-.not-a-member {
-    margin: 35px 0;
-    text-align:center;
-    font-size:18px;
-    color:#666666;
-}
-
-.not-a-member a {
-    color:red;
-    text-decoration: none;
-}
-
-.not-a-member a:hover {
-    text-decoration: underline;
-}

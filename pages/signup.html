@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="/styles/global.css">
     <link rel="icon" href="media/logo_32x32_fix.png" type="image/png">
     <link rel="stylesheet" href="/styles/nav.css">
-    <link rel="stylesheet" href="/styles/login.css">
+    <link rel="stylesheet" href="/styles/signup.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
@@ -31,9 +31,14 @@
             </ul>
         </nav>
     <div class="center">
-        <h1>Login</h1>
+        <h1>Sign Up</h1>
         <form>
-                 <div class="text-field">
+                <div class="text-field">
+                <input type="text" required>
+                <span></span>
+                <label>Name</label>
+                </div>
+                <div class="text-field">
                     <input type="text" required>
                     <span></span>
                     <label>Email Adress</label>
@@ -43,9 +48,11 @@
                 <span></span>
                     <label>Password</label>
                 </div>
-                <input type="submit" value="Login">
-                <div class="not-a-member">
-                    Not a member? <a href="signup.html">Sign up</a>
+                <div class="text-field">
+                    <input type="password" required>
+                <span></span>
+                    <label>Confirm Password</label>
                 </div>
+                <input type="submit" value="Sign Up">
         </form>
     </div>
