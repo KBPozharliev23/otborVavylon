@@ -1,0 +1,21 @@
+body {
+    color:white;
+}
+
+.page-heading {
+    text-align: center;
+    width:80%;
+    margin: 0 auto;
+}
+
+.page-heading h1 {
+    font-size:65px;
+}
+.page-heading p {
+    font-size:30px;
+}
+
+.text-section {
+    background-color:gray;
+    opacity:0.7
+}
