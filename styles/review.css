@@ -14,5 +14,20 @@ hr {
 p {
     color: #FFF;
     text-align: center;
-    
+}
+.grid-container {
+    display: grid;
+    width: 80%;
+    max-width: 1200px;
+    margin: auto;
+}
+.grid-item {
+    background-color: #000000;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.grid-item img {
+    width: 100%;
+    height: auto;
+    display: block;
 }
