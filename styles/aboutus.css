@@ -1,5 +1,6 @@
 body {
     color:white;
+    font-family: montserrat;
 }
 
 .page-heading {
@@ -16,6 +17,54 @@ body {
 }
 
 .text-section {
-    background-color:gray;
-    opacity:0.7
+    margin:0 auto;
+    width: 90%;
+}
+.text-section p {
+    font-size:27px;
+    font-weight:650;
+}
+.text-section li {
+    font-size:23px;
+    font-weight:450;
+}
+.text-section h1 {
+    text-align: center;
+    font-size:50px;
+    font-weight: 700;
+}
+.big-section {
+    width: 100%;
+    margin : 0 auto;
+    background-color: rgba(0, 0, 0, 0.85)
+}
+
+.text-section .p-text {
+    text-align: center;
+    font-size:28px;
+    font-weight:550
+}
+
+.meet-our-team h1 {
+    text-align: center;
+    font-size:55px;
+    font-weight: 700;
+}
+
+.team-container {
+    display:flex;
+    justify-content: space-around;
+}
+.team-box {
+    width:350px;
+    height:470px;
+    background-color: gray;
+    border-radius:10px;
+    text-align:center;
+}
+.team-box img {
+    width:350px;
+    height:350px;
+    border-radius:10px;
+    margin: auto;
 }

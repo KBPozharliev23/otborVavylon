@@ -1,3 +1,7 @@
+body {
+    font-family: montserrat;
+}
+
 .introduction {
     display: flex;
     flex-direction: column;
@@ -13,15 +17,13 @@
 }
 .main-title
 {
-    font-family:georgia;
     color:white;
-    font-size:70px;
+    font-size:75px;
     text-align:center;
 }
 .main-page-p{
-    font-family:Georgia;
     color:white;
-    font-size:35px;
+    font-size:33px;
 }
 .undertext{
     display: flex;
@@ -59,23 +61,21 @@
     justify-content: center;
 }
 .info-section {
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color:#11151a;
-
 }
 .info-heading{
     color:white;
     text-align:center;
-    font-size:70px;
+    font-size:65px;
 }
 .info-small-title {
     color:white;
-    font-size:35px;
+    font-size:37px;
     font-weight:400;
 }
 .info-ul li {
     color:white;
-    font-size:23px;
+    font-size:25px;
 }
 .info-title-div {
     display:flex;
