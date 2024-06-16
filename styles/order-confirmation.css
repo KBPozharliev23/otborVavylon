@@ -1,0 +1,21 @@
+.checkmark{
+  width: 500px; 
+  height: 500px;
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+}
+.confirmation{
+  padding-top:80px;
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  flex-direction: column;
+}
+h1{
+    padding-top:20px;
+    text-align:center;
+    width: 50%;
+    margin : 0 auto;
+    background-color: rgba(0, 0, 0, 0.45)
+}
