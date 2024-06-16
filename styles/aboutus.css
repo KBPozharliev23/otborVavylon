@@ -68,3 +68,10 @@ body {
     border-radius:10px;
     margin: auto;
 }
+hr {
+    border: none;
+    height: 1px;
+    background: linear-gradient(to right, transparent, #FFF, transparent);
+    margin: 15px auto;
+    width: 80%;
+}
