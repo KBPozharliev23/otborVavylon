@@ -116,6 +116,7 @@ hr {
     color:white;
     text-align:center;
     font-size:30px;
+    padding: 30px 40px 75px;
 }
 @media (max-width:1283px) {
     .main-title {
