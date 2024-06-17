@@ -62,21 +62,21 @@
     transition: color 0.3s ease;
 }
 
-@media (max-width:1360px)
+@media (max-width:1405px)
 {
     .navbar {
         font-size:20px;
     }
 }
 
-@media (max-width:1137px)
+@media (max-width:1043px)
 {
     .navbar {
         font-size:15px;
     }
 }
 
-@media (max-width:935px)
+@media (max-width:861px)
 {
     .navbar {
         font-size:13px;
@@ -86,7 +86,7 @@
     }
 }
 
-@media (max-width:805px)
+@media (max-width:745px)
 {
     .navbar {
         justify-content: space-evenly;
@@ -102,39 +102,23 @@
     }
 
     .navbar-links li {
-        font-size:12px;
+        font-size:23px;
     }
 
     .navbar-logo img {
         width:200px;
         height:100px;
     }
+
 }
 
-@media (max-width:611px)
+@media (max-width:565px)
 {
     .join-now-btn {
         display: block;
-    }
-}
-
-@media (max-width:535px)
-{
-    .join-now-btn {
         text-align:center;
     }
 }
 
-@media (max-width:399px)
-{
-    .navbar-links li {
-        font-size:10px;
-    } 
-}
 
-@media (max-width:371px)
-{
-    .navbar-links li {
-        font-size:9px;
-    }
-}
+
