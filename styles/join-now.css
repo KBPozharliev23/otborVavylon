@@ -7,11 +7,11 @@
     background-color: #a1a1a1;
     border-radius: 8px;
     padding: 20px 30px;
-    width: 450px;
+    width: 435px;
     opacity: 0.9;
     font-family: "Josefin Sans";
     margin-top:5vw;
-    height:600px;
+    height:650px;
     border:2px solid #FFF;
 }
 li {
@@ -40,7 +40,7 @@ li {
     justify-content: center;
     font-size: 1.7em;
     margin: -30px auto 10px;
-   font-weight: bold;
+    font-weight: bold;
 }
 
 .benefits {
@@ -48,6 +48,7 @@ li {
     flex-direction: column;
     gap:15px;
     margin-bottom: 2em;
+    height:360px;
 }
 button {
     background-color: #ff0000;
