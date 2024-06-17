@@ -33,4 +33,4 @@
 ## Used programs for creating the presentation and documentation:
 
 <img src="media_readme/microsoft_powerpoint_logo.png" alt="microsoft_powerpoint logo" width="45" height="40"/> 
-<img src="media_readme/microsoft_word_logo.png" alt="microsoft_word logo" width="55" height="40"/> 
+<img src="media_readme/microsoft_word_logo.png" alt="microsoft_word logo" width="45" height="40"/> 
