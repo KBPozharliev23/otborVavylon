@@ -83,3 +83,19 @@ hr {
     margin: 15px auto;
     width: 80%;
 }
+
+@media (max-width:1335px) {
+    .team-container {
+        display:grid;
+        grid-template-columns: auto auto ;
+        gap: 30px;
+    }
+}
+@media (max-width:704px) {
+    .team-container {
+        display:flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    }
+}

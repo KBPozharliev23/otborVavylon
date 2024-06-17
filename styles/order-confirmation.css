@@ -19,3 +19,31 @@ h1{
     margin : 0 auto;
     background-color: rgba(0, 0, 0, 0.45)
 }
+@media (max-width:1060px) {
+  .checkmark {
+    width:300px;
+    height:300px;
+  }
+  h1 {
+    font-size:25px;
+  }
+}
+@media (max-width:860px) {
+  .confirmation {
+    padding-top:220px;
+  }
+}
+@media (max-width:750px) {
+  .confirmation {
+    padding-top:100px;
+  }
+}
+@media (max-width:510px) {
+  .checkmark {
+    width:200px;
+    height:200px;
+  }
+  h1 {
+    font-size:20px;
+  }
+}

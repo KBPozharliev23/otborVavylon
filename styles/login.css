@@ -1,7 +1,7 @@
 
 .center{
     position: absolute;
-    top:50%;
+    top:55%;
     left:50%;
     transform:translate(-50%, -50%);
     width:500px;
@@ -89,4 +89,28 @@ input[type="submit"]:hover {
 
 .not-a-member a:hover {
     text-decoration: underline;
+}
+@media (max-width:865px) {
+    .center{
+        width:400px;
+        height:600px;
+    }
+}
+@media (max-width:750px) {
+    .center{
+        height:550px;
+        top:75%;
+    }
+}
+@media (max-width:509px) {
+    .center{
+        top:80%;
+    }
+}
+@media (max-width:430px) {
+    .center{
+        top:75%;
+        height:500px;
+        width:350px;
+    }
 }

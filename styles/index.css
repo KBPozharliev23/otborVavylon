@@ -62,7 +62,7 @@ body {
 }
 
 .join-now-btn-mainpage:hover {
-    transition: color 0.6s ease;
+    transition:0.6s;
     background-color: white;
     color:#ff0000
 }
@@ -118,7 +118,7 @@ hr {
     font-size:30px;
     padding: 30px 40px 75px;
 }
-@media (max-width:1283px) {
+@media (max-width:1409px) {
     .main-title {
         font-size:50px;
     }
@@ -196,6 +196,9 @@ hr {
     .main-title {
         font-size:35px;
     }
+    .main-title-low {
+        font-size:35px;
+    }
     .main-page-p {
         font-size:17px;
     }
@@ -219,5 +222,50 @@ hr {
     }
     .info-small-title {
         font-size:23px;
+    }
+    .info-img-div img {
+        width:600px;
+    }
+}
+@media (max-width:552px) {
+    .info-img-div img {
+        width:550px;
+    }
+}
+@media (max-width:512px) {
+    .info-img-div img {
+        width:500px;
+    }
+}
+@media (max-width:499px) {
+    .homevideo {
+        width: 390px;
+        height: 350px;
+    }
+    .main-title {
+        font-size:32px;
+    }
+    .main-title-low {
+        font-size:32px;
+    }
+    .undertext_1{
+        font-size:14px;
+    }
+    .number{
+        font-size:14px;
+    }
+    .join-now-btn-mainpage {
+        padding: 0.5rem 2rem;
+        border-radius: 40px;
+        font-size:25px;
+    }
+    .info-heading {
+        font-size:30px;
+    }
+    
+}
+@media (max-width:450px) {
+    .info-img-div img {
+        width:450px;
     }
 }

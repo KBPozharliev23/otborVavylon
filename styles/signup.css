@@ -1,6 +1,6 @@
 .center{
     position: absolute;
-    top:50%;
+    top:55%;
     left:50%;
     transform:translate(-50%, -50%);
     width:500px;
@@ -73,4 +73,34 @@ input[type="submit"] {
 input[type="submit"]:hover {
     border-color:darkred;
     transition: 0.5s;
+}
+
+@media (max-width:865px) {
+    .center{
+        width:400px;
+        height:550px;
+    }
+}
+@media (max-width:749px) {
+    .center{
+        height:600px;
+        top:72%;
+    }
+}
+@media (max-width:605px) {
+    .center{
+        top:77%;
+    }
+}
+@media (max-width:509px) {
+    .center{
+        top:82%;
+    }
+}
+@media (max-width:430px) {
+    .center{
+        top:80%;
+        height:550px;
+        width:350px;
+    }
 }

@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'xperia';
-    src: url("/fonts/Xperia.ttf");
+    src: url("../fonts/Xperia.ttf");
     font-style:normal;
     font-weight:100;
 }
@@ -36,9 +36,11 @@
 .navbar-links a {
     text-decoration: none;
     color: #ffffff;
-    transition: color 0.4s ease;
+    transition:0.3s;
 }
-
+.logo-text {
+    transition:0.3s;
+}
 .navbar-links a:hover {
     color: #ff0000;
 }
@@ -53,7 +55,7 @@
 
 .join-now-btn:hover {
     background-color: white;
-    transition: color 0.4s ease;
+    transition:0.4s;
 }
 .navbar-logo a {
     font-style: none;
@@ -62,34 +64,37 @@
 }
 .navbar-logo a:hover {
     color:rgb(168, 167, 167);
-    transition: color 0.3s ease;
+    transition: 0.3s;
 }
 
-@media (max-width:1405px)
+@media (max-width:1420px)
 {
-    .navbar {
+    .navbar-links a, .logo-text {
         font-size:20px;
     }
 }
 
-@media (max-width:1043px)
+@media (max-width:1060px)
 {
-    .navbar {
+    .navbar-links a, .logo-text {
         font-size:15px;
     }
 }
 
-@media (max-width:861px)
+@media (max-width:865px)
 {
-    .navbar {
+    .navbar-links a, .logo-text {
         font-size:13px;
     }
     .navbar-logo img {
         height: 50px;
     }
+    .logo-text {
+        transition:0s;
+    }
 }
 
-@media (max-width:745px)
+@media (max-width:749px)
 {
     .navbar {
         justify-content: space-evenly;
@@ -104,7 +109,7 @@
         align-items: center;
     }
 
-    .navbar-links li {
+    .navbar-links a {
         font-size:23px;
     }
 
@@ -115,7 +120,7 @@
 
 }
 
-@media (max-width:565px)
+@media (max-width:605px)
 {
     .join-now-btn {
         display: block;
